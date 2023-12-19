@@ -10,7 +10,7 @@ const quizSchema = new mongoose.Schema({
   questions: [questionSchema],
   startDate: { type: Date, required: true },
   endDate: { type: Date, required: true },
-  status: { type: String, enum: ['active', 'finished'], default: 'inactive' },
+  status: { type: String, enum: ['inactive','active', 'finished'], default: 'inactive' },
 });
 
 const QuizModel = mongoose.model('Quiz', quizSchema);
