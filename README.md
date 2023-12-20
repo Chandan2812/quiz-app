@@ -31,5 +31,3 @@ Make sure you have the following installed on your system:
 4. **Get All Quizzes:**
    - `GET /quizzes/all`
 
-5. **Post User Responses:**
-   - `POST /quizzes/:id/responses`
