@@ -9,7 +9,7 @@ Welcome to the Quiz Application, a RESTful API for creating and participating in
 - Get quiz results after 5 minutes of the quiz's end time.
 - View a list of all quizzes, including inactive and finished ones.
 
-- ## Prerequisites
+## Prerequisites
 
 Make sure you have the following installed on your system:
 
